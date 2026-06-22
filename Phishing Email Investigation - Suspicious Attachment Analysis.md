@@ -87,4 +87,7 @@ The alert was confirmed as a **true positive**. The attachment was independently
 - Endpoint investigation
 - Attachment Analysis (VirusTotal, HybridAnalysis)
 
+## Practice Project Source
+[LetsDefend's SOC140 - Phishing Mail Detected - Suspicious Task Scheduler](https://app.letsdefend.io/monitoring?channel=investigation&event_id=82) 
+
 ***
