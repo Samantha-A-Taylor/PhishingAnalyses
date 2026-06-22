@@ -55,9 +55,9 @@ Attachment *72c812cf21909a48eb9cceb9e04b865d* was analyzed by third-party sandbo
 
 Both third-party sandboxes independently identified the attachment as malicious.
 
-### 3. Log Managment - Tracing the delivery path
+### 3. Log Management - Tracing the delivery path
 
-Log managment was conducted on sender address *189.162.189.159* to find the email destination address and port number.<br><br>
+Log management was conducted on sender address *189.162.189.159* to find the email destination address and port number.<br><br>
 
 <img width="1532" height="626" alt="image" src="https://github.com/user-attachments/assets/c6997c13-ee48-4563-987d-6b719b974b52" />
 <br><br>
