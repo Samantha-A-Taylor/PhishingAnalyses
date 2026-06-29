@@ -11,7 +11,7 @@ This project analyzes real-world medication safety incident data from the Nation
 ✓ [SOC140 - Phishing Mail Detected - Suspicious Task Scheduler | LetsDefend](https://app.letsdefend.io/monitoring?channel=investigation&event_id=82) <br>
 ✓ [SOC120 - Phishing Mail Detected - Internal to Internal | LetsDefend](https://app.letsdefend.io/monitoring?channel=investigation&event_id=52) <br>
 ✓ [SOC114 - Malicious Attachment Detected - Phishing Alert | LetsDefend](https://app.letsdefend.io/monitoring?channel=investigation&event_id=45)<br>
-✓ [SOC146 - Phishing Mail Detected - Excel 4.0 Macros | LetsDefend]
+✓ [SOC146 - Phishing Mail Detected - Excel 4.0 Macros | LetsDefend](https://app.letsdefend.io/monitoring?channel=investigation&event_id=93)<br>
 ✓ [Challenge | LetsDefend](https://app.letsdefend.io/challenge/phishing-email)
 
 ## Key Features 🔑
