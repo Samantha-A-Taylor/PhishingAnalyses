@@ -21,7 +21,6 @@ First, the email is examined in its entirety.<br><br>
                - Subject line is non-urgent
                - No call-to-action (CTA) present within the message body
                - No attachment, embedded links, or suspicious images found
-<br>
 
 ## Findings
 The alert was confirmed as a **false positive**. The email contained no attachment, link, image, or call-to-action, and originated from a recognized internal address within the same domain. While conversational baiting was considered as a possibility, the brevity and neutral tone of the message, combined with a correct finding submission, made this unlikely. No further escalation or remediation was warranted.
