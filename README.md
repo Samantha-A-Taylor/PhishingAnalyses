@@ -7,14 +7,11 @@ This project analyzes real-world medication safety incident data from the Nation
 
 ## Project Sources 🔎
 
-✓ [LetsDefend | SOC141 - Phishing URL Detected](https://app.letsdefend.io/monitoring?channel=investigation&event_id=86)
-✓ [LetsDefend | SOC140 - Phishing Mail Detected - Suspicious Task Scheduler](https://app.letsdefend.io/monitoring?channel=investigation&event_id=82) 
-✓ [LetsDefend | SOC120 - Phishing Mail Detected - Internal to Internal](https://app.letsdefend.io/monitoring?channel=investigation&event_id=52) 
-✓ [LetsDefend | SOC114 - Malicious Attachment Detected - Phishing Alert](https://app.letsdefend.io/monitoring?channel=investigation&event_id=45)
-✓ [LetsDefend | Challenge](https://app.letsdefend.io/challenge/phishing-email)
-
-Practice with SOC Alert
-
+✓ [SOC141 - Phishing URL Detected | LetsDefend](https://app.letsdefend.io/monitoring?channel=investigation&event_id=86)<br>
+✓ [SOC140 - Phishing Mail Detected - Suspicious Task Scheduler | LetsDefend](https://app.letsdefend.io/monitoring?channel=investigation&event_id=82) <br>
+✓ [SOC120 - Phishing Mail Detected - Internal to Internal | LetsDefend](https://app.letsdefend.io/monitoring?channel=investigation&event_id=52) <br>
+✓ [SOC114 - Malicious Attachment Detected - Phishing Alert | LetsDefend](https://app.letsdefend.io/monitoring?channel=investigation&event_id=45)<br>
+✓ [Challenge | LetsDefend](https://app.letsdefend.io/challenge/phishing-email)
 
 ## Key Features 🔑
 
@@ -26,21 +23,8 @@ Practice with SOC Alert
 
 ## Technologies Used 🛠️
 
-       ✓ Python  
-       ✓ Pandas  
-       ✓ Seaborn  
-       ✓ Matplotlib  
-       ✓ Squarify  
-       ✓ SQLite3  
-       ✓ Jupyter Notebook  
-
-## Data Sources 📂
-
-  ✓ [LetsDefend | SOC141 - Phishing URL Detected](https://app.letsdefend.io/monitoring?channel=investigation&event_id=86)<br>
-  ✓ [LetsDefend | SOC140 - Phishing Mail Detected - Suspicious Task Scheduler](https://app.letsdefend.io/monitoring?channel=investigation&event_id=82) <br>
-  ✓ [LetsDefend | SOC120 - Phishing Mail Detected - Internal to Internal](https://app.letsdefend.io/monitoring?channel=investigation&event_id=52) <br>
-  ✓ [LetsDefend | SOC114 - Malicious Attachment Detected - Phishing Alert](https://app.letsdefend.io/monitoring?channel=investigation&event_id=45) <br>
-  ✓ [LetsDefend | Challenge](https://app.letsdefend.io/challenge/phishing-email)
+       ✓ P
+       ✓ J 
 
 ## License
 
