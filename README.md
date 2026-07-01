@@ -1,5 +1,5 @@
 ***
-# Phishing Analyses
+# SOC Phishing Investigation Portfolio
 ***
 ## Project Overview ☰
 This project documents a series of hands-on phishing email and phishing URL investigations completed as SOC analyst practice through LetsDefend's simulated alert environment. Each write-up follows a full investigation workflow, from initial triage through evidence gathering, verdict determination, and closure reasoning, for alerts involving malicious attachments, malicious links, and internal email traffic. The goal of this project is to demonstrate a repeatable, evidence-based approach to phishing triage: identifying red flags, validating indicators of compromise (IOCs) through independent third-party sandboxes, tracing delivery paths through log data, and confirming (or ruling out) execution on the destination endpoint.
