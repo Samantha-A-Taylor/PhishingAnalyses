@@ -2,7 +2,7 @@
 # SOC Phishing Investigation Portfolio
 ***
 ## Project Overview ☰
-This project documents a series of hands-on phishing email and phishing URL investigations completed as SOC analyst practice through LetsDefend's simulated alert environment. Each write-up follows a full investigation workflow, from initial triage through evidence gathering, verdict determination, and closure reasoning, for alerts involving malicious attachments, malicious links, and internal email traffic. The goal of this project is to demonstrate a repeatable, evidence-based approach to phishing triage: identifying red flags, validating indicators of compromise (IOCs) through independent third-party sandboxes, tracing delivery paths through log data, and confirming (or ruling out) execution on the destination endpoint.
+This project documents a series of hands-on phishing email and phishing URL investigations completed as SOC analyst practice through LetsDefend's simulated alert environment. Each write-up follows a full investigation workflow, from initial triage through evidence gathering, verdict determination, and closure reasoning, for alerts involving malicious attachments, malicious links, and internal email traffic. **The goal of this project is to demonstrate a repeatable, evidence-based approach to phishing triage:** identifying red flags, validating indicators of compromise (IOCs) through independent third-party sandboxes, tracing delivery paths through log data, and confirming (or ruling out) execution on the destination endpoint.
 
 ## Project Parts  <img width="23.75" height="29.75" alt="image" src="https://github.com/user-attachments/assets/0b89b807-26fe-4839-9dc3-00d2ed328bd5" />
 
@@ -17,12 +17,12 @@ This project documents a series of hands-on phishing email and phishing URL inve
 
 | Alert | Severity | Verdict | Key Evidence |
 | --- | --- | --- | --- |
-| [Phishing URL Detected](https://github.com/Samantha-A-Taylor/PhishingAnalyses/blob/main/Phishing%20URL%20Detected%20Write-Up.md) | High | True Positive | Malicious domain flagged by VirusTotal & HybridAnalysis; endpoint history showed remote script execution |
-| [Suspicious Task Scheduler](https://github.com/Samantha-A-Taylor/PhishingAnalyses/blob/main/Suspicious%20Task%20Scheduler%20Attachment%20Write-Up.md) | Medium | True Positive | Malicious attachment flagged by VirusTotal & HybridAnalysis; email blocked before delivery, no endpoint execution |
-| [Internal to Internal](https://github.com/Samantha-A-Taylor/PhishingAnalyses/blob/main/Internal%20to%20Internal%20Write-Up.md) | Medium | False Positive | No attachment, link, or call-to-action; benign internal correspondence |
-| [Malicious Attachment Detected](https://github.com/Samantha-A-Taylor/PhishingAnalyses/blob/main/Malicious%20Attachment%20Detected%20Write-Up.md) | High | True Positive | Malicious Excel dropper flagged by VirusTotal, HybridAnalysis & Filescan.io; EXCEL.EXE execution confirmed on endpoint |
-| [Excel 4.0 Macros](https://github.com/Samantha-A-Taylor/PhishingAnalyses/blob/main/Excel%204.0%20Macros%20Write-Up.md) | High | True Positive | All 3 attachment files flagged malicious by HybridAnalysis; DLL registration confirmed via regsvr32.exe on endpoint |
-| [Phishing Email Challenge](https://github.com/Samantha-A-Taylor/PhishingAnalyses/blob/main/Phishing%20Challenge%20Write-Up.md) | N/A | True Positive | Malicious URL flagged by VirusTotal; PayPal-themed financial lure with non-English body text |
+| Phishing URL Detected | High | True Positive | Malicious domain flagged by VirusTotal & HybridAnalysis; endpoint history showed remote script execution |
+| Suspicious Task Scheduler | Medium | True Positive | Malicious attachment flagged by VirusTotal & HybridAnalysis; email blocked before delivery, no endpoint execution |
+| Internal to Internal | Medium | False Positive | No attachment, link, or call-to-action; benign internal correspondence |
+| Malicious Attachment Detected | High | True Positive | Malicious Excel dropper flagged by VirusTotal, HybridAnalysis & Filescan.io; EXCEL.EXE execution confirmed on endpoint |
+| Excel 4.0 Macros | High | True Positive | All 3 attachment files flagged malicious by HybridAnalysis; DLL registration confirmed via regsvr32.exe on endpoint |
+| Phishing Email Challenge | N/A | True Positive | Malicious URL flagged by VirusTotal; PayPal-themed financial lure with non-English body text |
 
 ## Key Features 🔑
        ✓ Initial email triage to identify red flags in headers, sender addresses, subject lines, and message body language
@@ -41,13 +41,13 @@ This project documents a series of hands-on phishing email and phishing URL inve
        ✓ Filescan.io
        ✓ MXToolbox SuperTool
 
-## Project Sources 🔎🗂️
+## Project Sources 🗂️
 ✓ [SOC141 - Phishing URL Detected | LetsDefend](https://app.letsdefend.io/monitoring?channel=investigation&event_id=86)<br>
 ✓ [SOC140 - Phishing Mail Detected - Suspicious Task Scheduler | LetsDefend](https://app.letsdefend.io/monitoring?channel=investigation&event_id=82) <br>
 ✓ [SOC120 - Phishing Mail Detected - Internal to Internal | LetsDefend](https://app.letsdefend.io/monitoring?channel=investigation&event_id=52) <br>
 ✓ [SOC114 - Malicious Attachment Detected - Phishing Alert | LetsDefend](https://app.letsdefend.io/monitoring?channel=investigation&event_id=45)<br>
 ✓ [SOC146 - Phishing Mail Detected - Excel 4.0 Macros | LetsDefend](https://app.letsdefend.io/monitoring?channel=investigation&event_id=93)<br>
-✓ [Challenge | LetsDefend](https://app.letsdefend.io/challenge/phishing-email)
+✓ [Challenge - Phishing Email | LetsDefend](https://app.letsdefend.io/challenge/phishing-email)
 
 ## License
 MIT License
